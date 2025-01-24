@@ -1,0 +1,7 @@
+.bg-footer{
+    background-image: url('https://www.collcom.org/public/web/assets/images/backgrounds/footer-bg-2-1.png');
+    background-position: top center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: var(--cleenhearts-base, #351C42);
+}
