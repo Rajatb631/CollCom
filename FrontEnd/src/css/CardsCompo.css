@@ -1,0 +1,88 @@
+
+
+.cards{
+
+    
+    width: min-content;
+
+    position: relative;
+    height: min-content;
+   
+}
+
+
+.card-img{
+    /* border: 3px black;
+    border-style: dashed; */
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    position: absolute;
+    
+    transform: translate(8%,-50%);
+    bottom: 0%;
+    border-radius: 30px;
+
+}
+.card-content{
+  
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    
+
+    background-image: url('../assets//WorkAssets//card-bg-img.png');
+   
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+
+}
+.btnandtitle{
+    /* border: 1px green;
+    border-style: solid; */
+    position: relative;
+    display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items:center;
+   gap: 25px;
+   padding-bottom: 10px;
+}
+
+.btndiv{
+    background-color: #f6d469;
+    border: 3px #f6d469;
+    border-style: dotted;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    /* left: 43%; */
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.title{
+    /* font-size: 20px; */
+    font: 24px Quicksand,sans-serif;
+    color: inherit;
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95% / 0px 1px no-repeat;
+}
+
+/* 
+.allcards{
+    this is grid css to be put in screens css
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    
+    row-gap: 200px;
+    padding-top: 250px;
+    padding-left: 370px;
+    
+
+} */
