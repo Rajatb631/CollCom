@@ -5,3 +5,10 @@
     background-repeat: no-repeat;
     background-color: var(--cleenhearts-base, #351C42);
 }
+
+.White-txt{
+    color: white !important;
+}
+.row {
+    --bs-gutter-x: 0 !important;
+}
