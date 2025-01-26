@@ -41,7 +41,7 @@ export const CyberSanskar = () => {
             
             <div className='banner'><BannerCompo
              image= {bannerimg}
-             title={"Cyber Sanskar Magazine"}
+             title={"Cyber Sanskar Project"}
              pagename={"Work"}/>
              </div>
 
