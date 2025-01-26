@@ -8,6 +8,11 @@ import img2 from '../assets/WorkAssets/cybermagazinepic.jpg'
 import img3 from '../assets/WorkAssets/cybertrainingpic.png'
 import Footer from '../components/Footer.jsx'
 import '../css/Footer.css'
+import BannerCompo from '../components/BannerCompo.jsx';
+import '../css/BannerCompo.css'
+
+import bannerimg from '../assets/bannnerpic1.jpg'
+
 export const CyberSanskar = () => {
 
     const cards = [
@@ -25,11 +30,6 @@ export const CyberSanskar = () => {
             image: img3, // Replace with your image URLs
             title: "Cyber Awareness Workshop",
             buttonText: "➔",
-        },
-        {
-            image: img1, // Replace with your image URLs
-            title: "Online Cyber Training Awareness Mega Campaign",
-            buttonText: "➔",
         }
         
     ];
@@ -38,9 +38,16 @@ export const CyberSanskar = () => {
     return (
         <div className="sanskarpage">
             <div className='navbar'><Navbar/></div>
-            <div className='banner'>this is the banner</div>
+            
+            <div className='banner'><BannerCompo
+             image= {bannerimg}
+             title={"Cyber Sanskar Magazine"}
+             pagename={"Work"}/>
+             </div>
+
+
             <div className='allcards'>
-                {cards.map((card, index) =>
+                {cards.map((card) =>
                     <CardsCompo
                     title={card.title}
                     image={card.image}

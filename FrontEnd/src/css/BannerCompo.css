@@ -1,0 +1,42 @@
+.imgContainer{
+    overflow: hidden;
+    /* border-width: 6px;
+    border-style: solid;
+    border-color:black; */
+    width: 100%;
+    height: 350px;
+    position: relative;
+    
+    
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 80px;
+    opacity: 70%;
+    
+    
+}
+
+.BannerContents{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+    height: 100px;
+    
+    position: absolute;
+    top:100px;
+   
+    
+}
+
+.BannerContents h3{
+    font-size: 50px;
+}
