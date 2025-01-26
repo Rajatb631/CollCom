@@ -1,19 +1,15 @@
 
 
 .navbar {
-    border-style: solid;
-    border-color: red;
-    border-width: 5px;
-    
+  
     height:min-content;
 }
 
 .banner{
-    border-style: solid;
-    border-color: red;
-    border-width: 5px;
+   
     width: 100%;
-    height:300px;
+    height:fit-content;
+    
 }
 
 .allcards{
