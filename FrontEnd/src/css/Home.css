@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.full-scr{
+    width: 100vw;
+}
+.para-txt{
+    text-align: justify;
+}
+.padd-left{
+    padding-left: 1.5rem !important;
+}
+.padd-right{
+    padding-right: 1.5rem !important;
+}
+.dec-txt{
+    font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imgDivDim
+{max-height: 30vh}
+
+
+
+.carousel-img{
+    height: 55vh;
+    width: 100vw;
+}
+
+
+
+/* card */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.price {
+    color: #ff6a6a;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: #ff6a6a;
+    width: 60%; /* Adjust based on progress */
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.donate-button {
+    background-color: #ff6a6a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.donate-button:hover {
+    background-color: #e05555;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px; /* Matches the card's border radius */
+    border-top-right-radius: 20px; /* Matches the card's border radius */
+    object-fit: cover; /* Ensures the image fills its container properly */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.card img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
