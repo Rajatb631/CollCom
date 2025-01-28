@@ -19,15 +19,39 @@ const Home = () => {
   return (
     <div className='full-scr'>
         <Navbar/>
+
+
+
+
+         {/* text look good */}
+         <div className="container top-mar">
+
+<div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary flex-con">
+  
+<div className="col-lg-6 px-0">
+<h1 className="display-4 fst-italic">Collcom’s guide, your cyber shield worldwide!</h1>
+<p className="lead my-3">We are thrilled to announce the launch of our Cyber Magazine, a dedicated publication aimed at raising awareness about cybercrime and promoting cyber safety practices.</p>
+<p className="lead mb-0"><a href="#" className="text-body-emphasis fw-bold">Continue reading...</a></p>
+</div>
+<div className="col-10 col-sm-8 col-lg-6 padd-left">
+<Player
+className="d-block mx-lg-auto img-fluid"
+autoplay
+loop
+src={animationData}
+style={{ height: '350px', width: '400px' }}
+/>
+
+</div>
+</div>
+</div>
+
+
         
         {/* carousel */}
 
         <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
-    {/* <div className="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" className=""></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
-    </div> */}
+    
     <div className="carousel-inner">
       <div className="carousel-item carousel-item-next carousel-item-start">
         <img src={heroimg3} alt="" className="carousel-img" />
@@ -69,6 +93,12 @@ const Home = () => {
       <span className="visually-hidden">Next</span>
     </button>
   </div>
+
+
+       
+
+
+
 
 
         {/* starting page hero landing page */}

@@ -121,3 +121,12 @@
 }
 
 
+.top-mar{
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+
+.flex-con{
+    display: flex;
+    flex-direction: row;
+}

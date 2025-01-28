@@ -2,6 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import CyberSanskar from './CyberSanskar'
 import '../css/CyberSanskar.css'
+import Home from './Home'
+import '../css/Home.css'
+import AboutUs from './AboutUs'
+import '../css/BannerCompo.css'
 
 import CapacityBuilding from '../screens/CapacityBuilding.jsx'
 import '../css/CapacityBuilding.css'
@@ -15,11 +19,6 @@ import '../css/CyberScamScreen.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <CyberSanskar/> */}
-  
-    {<CapacityBuilding/>}
-    {/* <JansamwadProject/> */}
-    {/* <SapneSchoolScreen/> */}
-    {/* <CyberScamScreen/> */}
+ 
   </StrictMode>,
 )
