@@ -27,8 +27,8 @@
 }
 .card-content{
   
-    /* width: 350px;
-    height: 300px; */
+    width: 350px;
+    height: 300px; 
     border-radius: 20px;
     display: flex;
     align-items: end;
@@ -68,7 +68,7 @@
 }
 
 .title{
-    /* font-size: 20px; */
+    font-size: 20px;
     font: 24px Quicksand,sans-serif;
     color: inherit;
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95% / 0px 1px no-repeat;

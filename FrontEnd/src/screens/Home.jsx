@@ -7,7 +7,7 @@ import '../css/Home.css'
 import heroimg1 from '../assets/hero-1.jpg'
 import heroimg2 from '../assets/hero-2.jpg'
 import heroimg3 from '../assets/hero-3.jpg'
-import cardimg from '../assets/children-child-boy-girl-c38c28ea14409500965ec791351bb835.jpg'
+
 import cardimg1 from '../assets/Jam.jpg'
 import cardimg2 from '../assets/Sap.jpeg'
 import cardimg3 from '../assets/Cyb.jpg'
