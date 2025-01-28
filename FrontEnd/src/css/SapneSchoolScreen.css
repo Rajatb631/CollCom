@@ -1,0 +1,25 @@
+
+
+.navbar {
+  
+    height:min-content;
+}
+
+.banner{
+   
+    width: 100%;
+    height:fit-content;
+    
+}
+
+.allcards{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    
+    row-gap: 200px;
+    padding-top: 250px;
+    padding-left: 370px;
+    
+
+}
